@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Imgur Clone</title>
+        <link
+            rel="shortcut icon"
+            href="https://s.imgur.com/images/favicon-32x32.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="navbar.css" />
+    </head>
+    <body>
+        <div class="homeCover" id="newCover">
+            <div class="navBar">
+                <div class="menuIcon"></div>
+                <div class="nav_container_left">
+                    <a href="/">
+                        <img
+                            class="imgurLogo"
+                            src="./images/logo.png"
+                            alt="imgur-logo"
+                        />
+                    </a>
+                    <a href="/">
+                        <img
+                            class="uploadLogo"
+                            src="https://s.imgur.com/desktop-assets/desktop-assets/icon-new-post.13ab64f9f36ad8f25ae3544b350e2ae1.svg"
+                            alt="upload"
+                        />
+                        <span>New Post</span>
+                    </a>
+                </div>
+                <div class="nav_container_center">
+                    <div class="searchBar">
+                        <form class="searchForm">
+                            <input
+                                class="searchBarInput"
+                                type="text"
+                                placeholder="Images, #tags, @users oh my!"
+                            />
+                            <button class="searchBarSubmit" type="submit">
+                                <img
+                                    class=".btn"
+                                    src="https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg"
+                                    alt=""
+                                />
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="nav_container_right">
+                    <div class="leaderboard">
+                        <a href="/">
+                            <img src="./images/leaderboard.png" alt="logo" />
+                        </a>
+                    </div>
+                    <div class="adsFree">
+                        <a href="/">Go Ad-Free</a>
+                    </div>
+                    <div class="signIn">
+                        <a href="/">Sign In</a>
+                    </div>
+                    <div class="signUp">
+                        <a href="/">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="messageWelcome">This site kills boredom.</div>
+            <div class="trendingTags">
+                <div class="trendingTags__heading">
+                    <div>Explore Tags</div>
+                    <div>MORE TAGS +</div>
+                </div>
+                <div class="trendingTags__container">
+                    <a
+                        href=""
+                        class="tags"
+                        style="
+                            background-image: url(./images/tag1.jpg);
+                            height: 130px;
+                            width: 232px;
+                        "
+                    >
+                        <div
+                            class="tags__title"
+                            style="background-color: rgb(228, 125, 87)"
+                        >
+                            <div class="tags__title__name">
+                                Science And Tech
+                            </div>
+                            <div class="tags__title__posts">
+                                FEATURED • 45,153 Posts
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href=""
+                        class="tags"
+                        style="
+                            background-image: url(./images/tag2.jpg);
+                            height: 130px;
+                            width: 135px;
+                        "
+                    >
+                        <div
+                            class="tags__title"
+                            style="background-color: rgb(99, 56, 117)"
+                        >
+                            <div class="tags__title__name">funny</div>
+                            <div class="tags__title__posts">
+                                2,700,423 Posts
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href=""
+                        class="tags"
+                        style="
+                            background-image: url(./images/tag3.jpg);
+                            height: 130px;
+                            width: 135px;
+                        "
+                    >
+                        <div
+                            class="tags__title"
+                            style="background-color: rgb(81, 83, 90)"
+                        >
+                            <div class="tags__title__name">Archery</div>
+                            <div class="tags__title__posts">765 Posts</div>
+                        </div>
+                    </a>
+                    <a
+                        href=""
+                        class="tags"
+                        style="
+                            background-image: url(./images/tag4.jpg);
+                            height: 130px;
+                            width: 135px;
+                        "
+                    >
+                        <div
+                            class="tags__title"
+                            style="background-color: rgb(0, 130, 97)"
+                        >
+                            <div class="tags__title__name">dog</div>
+                            <div class="tags__title__posts">212,387 Posts</div>
+                        </div>
+                    </a>
+                    <a
+                        href=""
+                        class="tags"
+                        style="
+                            background-image: url(./images/tag5.jpg);
+                            height: 130px;
+                            width: 135px;
+                        "
+                    >
+                        <div
+                            class="tags__title"
+                            style="background-color: rgb(50, 141, 103)"
+                        >
+                            <div class="tags__title__name">Otters</div>
+                            <div class="tags__title__posts">534 Posts</div>
+                        </div>
+                    </a>
+                    <a
+                        href=""
+                        class="tags"
+                        style="
+                            background-image: url(./images/tag6.jpg);
+                            height: 130px;
+                            width: 135px;
+                        "
+                    >
+                        <div
+                            class="tags__title"
+                            style="background-color: rgb(96, 174, 187)"
+                        >
+                            <div class="tags__title__name">Aww</div>
+                            <div class="tags__title__posts">765,145 Posts</div>
+                        </div>
+                    </a>
+                    <a
+                        href=""
+                        class="tags"
+                        style="
+                            background-image: url(./images/tag7.jpg);
+                            height: 130px;
+                            width: 135px;
+                        "
+                    >
+                        <div
+                            class="tags__title"
+                            style="background-color: rgb(186, 81, 159)"
+                        >
+                            <div class="tags__title__name">Memes</div>
+                            <div class="tags__title__posts">575,429 Posts</div>
+                        </div>
+                    </a>
+                    <a
+                        href=""
+                        class="tags"
+                        style="
+                            background-image: url(./images/tag8.jpg);
+                            height: 130px;
+                            width: 135px;
+                        "
+                    >
+                        <div
+                            class="tags__title"
+                            style="background-color: rgb(43, 26, 90)"
+                        >
+                            <div class="tags__title__name">Gaming</div>
+                            <div class="tags__title__posts">299,057 Posts</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="coverChangeGallery">
+                <div id="miniLogo">
+                    <img
+                        src="https://s.imgur.com/images/favicon-32x32.png"
+                        alt="favicon"
+                    />
+                </div>
+                <div class="coverChangeGallery__sort">
+                    <span class="coverChangeGallery__sort__wrapper section"
+                        >MOST VIRAL</span
+                    >
+                    <div id="navSearch">
+                        <div class="searchBar">
+                            <form class="searchForm">
+                                <input
+                                    class="searchBarInput"
+                                    type="text"
+                                    placeholder="Images, #tags, @users oh my!"
+                                />
+                                <button class="searchBarSubmit" type="submit">
+                                    <img
+                                        class=".btn"
+                                        src="https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg"
+                                        alt=""
+                                    />
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <span class="coverChangeGallery__sort__wrapper">
+                        NEWEST</span
+                    >
+                </div>
+                <div class="coverChangeGallery__view">
+                    <div class="iconFilter">
+                        <img
+                            src="https://s.imgur.com/desktop-assets/desktop-assets/icon-filter.551faed00bcf04e07c9e01a6874bd652.svg"
+                            alt="iconFilter"
+                        />
+                    </div>
+                    <div class="pause">
+                        <img
+                            src="https://s.imgur.com/desktop-assets/desktop-assets/icon-pause.68f07ce1a7e07bac06d1f2c527d7a9e5.svg"
+                            alt="pause"
+                        />
+                    </div>
+                    <div class="uniform">
+                        <img src="./images/uniform.png" alt="uniform" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="imageBody">
+            <div class="content">Images</div>
+        </div>
+        <script src="navbar.js"></script>
+    </body>
+</html>
