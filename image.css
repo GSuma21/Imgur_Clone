@@ -14,17 +14,31 @@
     width:40vh;
     height:40vh
 }
-
-#imageBody div{
-   border: 1px solid black;
+p{
+    text-decoration : none
+}
+.l{
    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
+.v{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
-
-
-
-
+.likes{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.details{
+    text-decoration : none ;
+    height: 10px;
+}
 
 
 

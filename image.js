@@ -26,27 +26,37 @@ function createPage(data){
         var likes = document.createElement('div')
         likes.setAttribute("class","likes")
         var img = document.createElement('img')
+        var l = document.createElement('div')
+        l.setAttribute("class","l")
+        var v = document.createElement('div')
+        v.setAttribute("class","v")
        
         var p1 = document.createElement('p')
         var p2 = document.createElement('p')
         var p3 = document.createElement('p')
         var p4 = document.createElement('p')
+        var p11 = document.createElement('p')
+        var p21 = document.createElement('p')
 
         p1.innerHTML = `<p>${ele.tags}</p>`
         p2.innerHTML = `<p>${ele.likes}</p>`
         p4.innerHTML = `<p>${ele.views}</p>`
+        p11.innerHTML = `<p>likes:</p>`
+        p21.innerHTML = `<p>views:</p>`
 
         img.src = ele.webformatURL;
+        l.append(p11,p2)
+        v.append(p21,p4)
+        likes.append(l,v);
+        details.append(p1)
+        card.append(img,details,likes)
 
-        likes.append("likes:",p2,"views:",p4);
-        details.append(p1,likes)
-        card.append(img,p1,"likes:",p2,"views:",p4)
+       
 
         Myimages.append(card);
        
        
 
-        
 
 
     })
